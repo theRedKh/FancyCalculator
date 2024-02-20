@@ -1,1 +1,1 @@
-# FancyCalculator
+# Fancy Calculator
