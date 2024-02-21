@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(208, 184, 184);
+}
+
+#Calculator{
+    background-color: rgb(246, 240, 240);
+    align-content: center;
+    width:min-content;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.numbers{
+    background-color: rgb(170, 220, 220);
+}
+
+#buttons{
+    padding: 5px;
+}
+
+/*Text on page*/
+#heading{
+    color:rgb(16, 17, 17);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-size: 40px;
+    text-align: center;
+}
+
+#foot{
+    color: rgba(0, 0, 0, 0.656);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+}
