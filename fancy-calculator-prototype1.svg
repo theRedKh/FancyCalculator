@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1366"
+   height="768"
+   viewBox="0 0 1366 768"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="fancy-calculator-prototype1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.70204978"
+     inkscape:cx="681.5756"
+     inkscape:cy="383.87591"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <rect
+       x="527.02815"
+       y="62.673618"
+       width="367.49531"
+       height="58.400417"
+       id="rect3" />
+  </defs>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="fill:#000000;fill-opacity:1">
+    <rect
+       style="fill:#eddab6;fill-opacity:1;stroke-width:1.06275"
+       id="rect2"
+       width="1364.5756"
+       height="770.60059"
+       x="1.4244004"
+       y="-1.424403" />
+    <text
+       xml:space="preserve"
+       id="text3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.6667px;font-family:'MS Reference Sans Serif';-inkscape-font-specification:'MS Reference Sans Serif';text-align:center;white-space:pre;shape-inside:url(#rect3);fill:#000000;fill-opacity:1"
+       transform="translate(-28.083013,-52.700714)"><tspan
+         x="569.84105"
+         y="105.24927"
+         id="tspan2"><tspan
+           style="font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended'"
+           id="tspan1">Calculator</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Calculator">
+    <rect
+       style="fill:#c8aa8c;fill-opacity:1;stroke-width:0.768655"
+       id="rect7"
+       width="698.62158"
+       height="458.20517"
+       x="333.68921"
+       y="154.89742"
+       ry="51.057148"
+       inkscape:label="back" />
+    <rect
+       style="fill:#d8c7ab;fill-opacity:1;stroke:none;stroke-width:1.06987"
+       id="rect12"
+       width="657.60925"
+       height="75.566254"
+       x="354.19537"
+       y="186.67619"
+       ry="16.192776"
+       inkscape:label="input box" />
+    <rect
+       style="fill:#d8c7ab;fill-opacity:1;stroke:none"
+       id="rect13"
+       width="72.124893"
+       height="66.46804"
+       x="376.18082"
+       y="298.39905"
+       ry="14.849249"
+       inkscape:label="button" />
+  </g>
+</svg>
