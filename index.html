@@ -4,6 +4,7 @@
     <meta name="">
     <title>Fancy Calculator Version 1.0</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     </div>
     <div class = "form-center">
         <form>
-            <input>
+            <input id="result">
             <div id="grid-container">
                 <button id="b7">7</button>
                 <button>8</button>
@@ -20,13 +21,13 @@
                 <button id="b4">4</button>
                 <button>5</button>
                 <button>6</button>
-                
                 <button id="b1">1</button>
                 <button>2</button>
                 <button>3</button>
                 <button id="b0">0</button>
-                <button id="clear">CLEAR</button>
-                <button id="ans">=</button>
+                <button id="clear" onclick="clear">CLEAR</button>
+                <!--<button id="ans">=</button>!-->
+                <input type="submit" id="ans" value="=" onsubmit="">
                 <button id="plus">+</button>
                 <button id="divd">/</button>
                 <button id="times">x</button>

@@ -47,6 +47,11 @@ input{
 }
 #ans{
     height: auto;
+    width: 45px;
+    background-color:#d8c7ab;
+    color: #a57227;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     grid-row: 1 / span 2;
     grid-column: 4;
 }
