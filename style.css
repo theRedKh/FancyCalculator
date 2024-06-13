@@ -9,6 +9,7 @@ body{
     text-align: center;
 }
 
+/* Main calculator body*/
 .form-center{
     display: flex;
     justify-content: center;
@@ -23,15 +24,26 @@ form{
     border-radius: 20px;
     box-shadow: 1px 5px 15px 2px rgb(126, 124, 120);
 }
-input{
+/*Input box*/
+#result{
     background-color: #d9cdbb;
     border: none;
+    outline: none; /* removes selection outline */
     border-radius: 7px;
     margin: 6px;
     width: 310px;
     height: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    color:#362915;
+    font-weight: bold;
 }
+#result:hover{
+    transition-duration: 0.2s;
+    scale: 101%;
+    box-shadow: 2px 2px 5px rgb(100, 99, 95);
+}
+
+/*Button Grid*/
 #grid-container{
     display:grid;
     grid-template-columns:auto auto auto auto auto auto;
@@ -48,6 +60,8 @@ input{
 #ans{
     height: auto;
     width: 45px;
+    border: none;
+    border-radius: 7px;
     background-color:#d8c7ab;
     color: #a57227;
     font-size: 30px;
@@ -76,16 +90,18 @@ button{
     border-style: none;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #a57227;
-    transition-duration: 0.2s;
+    color: #a57227; 
 }
-button:hover{
+
+button:hover, #ans:hover{
     background-color: #d9c099;
+    transition-duration: 0.2s;
 }
 
 #foot{
     color: rgba(0, 0, 0, 0.656);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     font-size: 15px;
+    font-weight: bold;
     text-align: center;
 }

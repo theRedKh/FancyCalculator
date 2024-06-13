@@ -5,3 +5,5 @@ function clear(){
 function result(){
     
 }
+
+//Button Functions
