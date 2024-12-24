@@ -16,7 +16,9 @@
      - Margins
      - Buttons
      - Hover Transition
+     - Outline
  - Introduction to `Java Script`
+      -  Select elements
  - Basic use of InkScape (Graphic Design software) for prototyping
  - Revision of basic `HTML`
 

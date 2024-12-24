@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <meta name="">
+    <meta name="description" content="Fancy Calculator Version 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fancy Calculator Version 1.0</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -13,27 +14,27 @@
     </div>
     <div class = "form-center">
         <form>
-            <input id="result">
+            <input id="result" readonly>
             <div id="grid-container">
-                <button id="b7">7</button>
-                <button id="b8">8</button>
-                <button id="b9">9</button>
-                <button id="b4">4</button>
-                <button id="b5">5</button>
-                <button id="b6">6</button>
-                <button id="b1">1</button>
-                <button id="b2">2</button>
-                <button id="b3">3</button>
-                <button id="b0">0</button>
-                <button id="clear" onclick="clear">CLEAR</button>
-                <!--<button id="ans">=</button>!-->
-                <input type="submit" id="ans" value="=" onsubmit="">
-                <button id="plus">+</button>
-                <button id="divd">/</button>
-                <button id="times">x</button>
-                <button id="minus">-</button>
+                <button type="button" id="b7">7</button>
+                <button type="button" id="b8">8</button>
+                <button type="button" id="b9">9</button>
+                <button type="button" id="b4">4</button>
+                <button type="button" id="b5">5</button>
+                <button type="button" id="b6">6</button>
+                <button type="button" id="b1">1</button>
+                <button type="button" id="b2">2</button>
+                <button type="button" id="b3">3</button>
+                <button type="button" id="b0">0</button>
+                <button type="button" id="clear">CLEAR</button>
+                <button type="button" id="ans">=</button>
+                <button type="button" id="plus">+</button>
+                <button type="button" id="divd">&divide</button>
+                <button type="button" id="times">&times</button>
+                <button type="button" id="minus">-</button>
             </div>
         </form>
     </div>
     <p id = "foot">K.H</p>
 </body>
+</html>
