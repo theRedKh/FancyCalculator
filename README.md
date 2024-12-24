@@ -18,7 +18,11 @@
      - Hover Transition
      - Outline
  - Introduction to `Java Script`
-      -  Select elements
+      - Constants and variables
+      - Arrays
+      - Functions
+      - Select elements
+      - Read text from buttons
  - Basic use of InkScape (Graphic Design software) for prototyping
  - Revision of basic `HTML`
 
